@@ -1,8 +1,4 @@
-while True:
-    user_say = input('Скажи что-нибудь: ')
-    if user_say == 'Пока':
-        print('Ну пока')
-        break
-    else:
-        print('Сам ты {}'.format(user_say))
-        
+students_scores = [1, 7, 12, 21, 19, 6, 5, 15, 35, 96]
+ 
+for score in students_scores:
+    print(score+1)
